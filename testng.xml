@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/EKTA/IdeaProjects/PageObjectModelInstagram">
+        <classes>
+            <class name="com.bridgelabz.test.Instagramtest">
+                <methods>
+                    <include name="redirectOnToTheSignUpPage"/>
+                    <include name="insertTheDataIntoTheRegistrationField"/>
+                    <include name="loginInToTheInstagram"/>
+                </methods>
+            </class>
+            <class name="com.bridgelabz.test.TestFail">
+                <methods>
+                    <include name="testPassed"/>
+                    <include name="testFailed"/>
+                    <include name="testDepend"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
